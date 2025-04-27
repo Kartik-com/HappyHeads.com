@@ -46,4 +46,60 @@ npm run dev
 
 The frontend will run on http://localhost:5173 (or another port if specified).
 
+### Project Structure
+
+```text
+HappyHeads.com/
+├── Backend/
+│   ├── server.js
+│   ├── package.json
+│   ├── node_modules/
+│   ├── routes/
+│   │   ├── api.js
+│   │   └── ...
+│   ├── controllers/
+│   │   ├── userController.js
+│   │   └── ...
+│   ├── models/
+│   │   ├── userModel.js
+│   │   └── ...
+│   └── ...
+├── Frontend/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   └── ...
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   └── ...
+│   ├── package.json
+│   ├── node_modules/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── ...
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── ...
+│   └── ...
+└── README.md
+```
+
+### Troubleshooting
+
+- Ensure the backend server is running before starting the frontend.
+- Check for missing dependencies or version conflicts.
+
+### Contributing
+
+1. Fork the repository.
+2. Create a feature branch (git checkout -b feature-name).
+3. Commit changes (git commit -m "Add feature").
+4. Push to the branch (git push origin feature-name).
+5. Open a pull request.
+
+### License
+
+MIT License
 
