@@ -23,3 +23,27 @@ Backend
 cd Backend
 npm install
 ```
+Frontend
+
+```bash
+cd Frontend
+npm install
+```
+### 3. Run the Application
+Start the Backend Server
+In the Backend directory:
+
+```bash
+node server.js
+```
+
+Start the Frontend
+In the Frontend directory:
+
+```bash
+npm run dev
+```
+
+The frontend will run on http://localhost:5173 (or another port if specified).
+
+
