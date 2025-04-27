@@ -18,5 +18,8 @@ cd HappyHeads.com
 ```
 ### 2. Install Dependencies
 Backend
+
+```bash
 cd Backend
 npm install
+```
