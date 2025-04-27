@@ -15,3 +15,8 @@ A web application built with a Node.js backend and a frontend using [insert fron
 ```bash
 git clone https://github.com/Kartik-com/HappyHeads.com.git
 cd HappyHeads.com
+```
+### 2. Install Dependencies
+Backend
+cd Backend
+npm install
