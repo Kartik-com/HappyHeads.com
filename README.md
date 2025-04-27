@@ -6,29 +6,25 @@ Node.js (v16 or higher)
 npm (v8 or higher)
 Git
 
-Setup Instructions
-1. Clone the Repository
+Setup and Run Instructions
+Clone the Repository
 git clone https://github.com/Kartik-com/HappyHeads.com.git
 cd HappyHeads.com
 
-2. Install Dependencies
-The project has separate Backend and Frontend directories. Install dependencies for both.
-Backend
+Install Dependencies
+Backend:
 cd Backend
 npm install
 
-Frontend
-Open a new terminal, then:
+Frontend (in a new terminal):
 cd Frontend
 npm install
 
-3. Run the Application
-Start the Backend Server
-In the Backend directory:
+Run the Application
+Start the Backend Server (in Backend directory):
 node server.js
 
-Start the Frontend
-In the Frontend directory:
+Start the Frontend (in Frontend directory):
 npm run dev
 
 The frontend will run on http://localhost:5173 (or another port if specified).
@@ -47,8 +43,8 @@ HappyHeads.com/
 
 Troubleshooting
 
-Verify that the backend server is running before starting the frontend.
-Check for any missing dependencies or version conflicts.
+Ensure the backend server is running before starting the frontend.
+Check for missing dependencies or version conflicts.
 
 Contributing
 
